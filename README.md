@@ -38,10 +38,10 @@ sorted_arr = sorted_small + [pivot] + sorted_big
 print(sorted_arr)
 return sorted_arr
 ```
-
-
+## demo後程式碼解釋
 ### 這次上課講義中範例的陣列 arr。
 ```
+
 arr = [33, 67, 8, 13, 54, 119, 3, 84, 25, 41]
 ```
 ### 印出原始的未排序陣列，這樣我們就可以在排序之前看到它的狀態。
