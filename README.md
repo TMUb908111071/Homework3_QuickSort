@@ -38,7 +38,7 @@ sorted_arr = sorted_small + [pivot] + sorted_big
 print(sorted_arr)
 return sorted_arr
 ```
-## demo後程式碼解釋
+## #demo後程式碼解釋
 ### 這次上課講義中範例的陣列 arr。
 ```
 
