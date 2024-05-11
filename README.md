@@ -19,8 +19,7 @@ if len(arr) <= 1:
 ```
 pivot = arr[0]
 ```
-### 創建一個新的陣列，其中包含所有小於等於基準點的元素。
-### 創建另一個新的陣列，其中包含所有大於基準點的元素。
+### 創建一個新的陣列，其中包含所有小於等於基準點的元素。再創建另一個新的陣列，其中包含所有大於基準點的元素。
 ```
 smaller_than_pivot = [x for x in arr[1:] if x <= pivot]
 bigger_than_pivot = [x for x in arr[1:] if x > pivot]
